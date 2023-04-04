@@ -1,0 +1,8 @@
+year_of_exp=c(7,5,1,3)
+salary_in_lakhs=c(21,12,6,8)
+employee.data=data.frame(year_of_exp,salary_in_lakhs)
+employee.data
+model <- lm (salary_in_lakhs~year_of_exp,dat=employee.data)
+summary(model)
+plot(salary_in_lakhs~year_of_exp,data=employee.data)
+abline(model)
