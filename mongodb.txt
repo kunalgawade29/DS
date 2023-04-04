@@ -1,0 +1,19 @@
+# show collections
+
+# db.createCollections"clg"
+
+//to inset one 
+# db.clg.insertOne({name:"kunal",age:"21"})
+
+//to insert many 
+# bd.clg.insertMany([{name:"abhi",age:"22"},{name:"viky",age:"23"}])
+
+# db.clg.find()
+
+# db.clg.findOne({name:"kunal")
+
+# db.clg.find().count()
+
+//update operation
+# db.clg.find()
+# db.clg.updateOne({_id:Object("hoce930nvdvn")},{set:{age:"33"}})
